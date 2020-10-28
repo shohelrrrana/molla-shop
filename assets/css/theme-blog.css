@@ -1,0 +1,16 @@
+/*
+Name: 			theme-blog.css
+Written by: 	Shohel Tana
+*/
+
+/* Posts */
+
+.post .entry-meta {
+    font-size: 0.8rem;
+}
+
+.post .readmore {
+    border-color: #d9d9d9 #d9d9d9 #bfbfbf;
+    color: #777;
+    background-color: #FFF;
+}

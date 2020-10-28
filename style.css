@@ -1,0 +1,238 @@
+/*
+Theme Name: Molla Shop
+Theme URI: https://github.com/shohelrrrana
+Author: Shohel Rana
+Author URI: https://github.com/shohelrrrana
+Version: 1.0.0
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: molla-shop
+Tags: custom-background, custom-logo, custom-menu, featured-images
+*/
+
+img {
+    max-width: 100%;
+}
+
+p {
+    color: #777;
+    line-height: 26px;
+    margin: 0 0 20px;
+}
+
+a {
+    color: #0099E6;
+    text-decoration: none !important;
+}
+
+.btn-xs {
+    font-size: 11.2px;
+    font-size: 0.7rem;
+    padding: 3.2px 8px;
+    padding: 0.2rem 0.5rem;
+}
+
+h1.intro-title {
+    max-width: 230px;
+}
+
+#offers .banner-title {
+    max-width: 275px;
+}
+
+.btn-product-icon i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+}
+
+.ratings-val img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.btn-product {
+    color: #c96;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    line-height: 1;
+    transition: all .35s ease;
+    padding-top: 1.9rem;
+    padding-bottom: 1.9rem;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.product .btn-product {
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+    text-transform: uppercase;
+    border-bottom: .1rem solid #c96;
+    color: #fff !important;
+    background-color: #c96;
+    border-color: #c96;
+}
+
+.product .btn-product span {
+    color: #fff !important;
+}
+
+.product .btn-product:hover, .product .btn-product:focus {
+    color: #fff;
+    background-color: #c96;
+    border-bottom-color: #c96;
+    text-decoration: none;
+}
+
+.added_to_cart {
+    background: #c96 !important;
+    padding: 13px 25px;
+    color: #fff;
+}
+
+.added_to_cart:hover {
+    background: #c96 !important;
+    padding: 13px 25px;
+    color: #fff;
+}
+
+.product-media {
+    background-color: transparent;
+}
+
+.btn-product-icon:hover span, .btn-product-icon:focus span {
+    background-color: #c96;
+}
+
+.btn-product-icon {
+    border-color: #c96;
+}
+
+nav.woocommerce-breadcrumb {
+    border-bottom: 1px solid #ddd;
+    padding: 12px 0 !important;
+    margin-bottom: 24px !important;
+}
+
+
+.woocommerce-pagination li .page-numbers {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.woocommerce-pagination li .page-numbers {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 3rem;
+    height: 4rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+    padding: 0 .3rem;
+    line-height: 1;
+    color: #706f6c;
+    border-radius: .3rem;
+    background-color: transparent;
+    border: .1rem solid transparent;
+}
+
+.woocommerce-pagination li .page-numbers.prev {
+    margin-right: 1.7rem;
+}
+
+.woocommerce-pagination li .page-numbers.prev, .woocommerce-pagination li .page-numbers.next {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    min-width: 70px;
+}
+
+.woocommerce-pagination li:first-child .page-numbers {
+    margin-left: 0;
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
+
+.woocommerce-pagination li.disabled .page-numbers {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #fff;
+    border-color: #dee2e6;
+}
+
+.woocommerce-pagination li:first-child .page-numbers {
+    border-top-left-radius: .3rem;
+    border-bottom-left-radius: .3rem;
+}
+
+.woocommerce-pagination li.disabled .page-numbers {
+    border-color: transparent;
+    color: #eaeaea;
+}
+
+.woocommerce-pagination li .page-numbers {
+    padding: 11px !important;
+}
+
+.woocommerce-pagination li {
+    border: none !important;
+}
+
+.woocommerce-pagination li .page-numbers.current, .woocommerce-pagination li .page-numbers:hover {
+    background: transparent !important;
+    border: 1px solid #ddd;
+    color: #c96 !important;
+}
+
+.woocommerce-pagination ul {
+    border: none !important;
+}
+
+footer .menu {
+    display: block;
+}
+
+footer .menu li a {
+    padding: 6px 0;
+    color: inherit;
+    font-weight: 400;
+}
+
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1, .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+    max-width: none;
+}
+
+.single-product  .entry-summary h1.product_title {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.single-product  .entry-summary span.woocommerce-Price-amount.amount {
+    font-weight: 500;
+    color: #c96;
+}
+
+.single-product  .summary.entry-summary {
+    background: transparent;
+}
+
+.single-product button.single_add_to_cart_button.button.alt {
+    background: #c96;
+    padding: 13px 35px;
+}
